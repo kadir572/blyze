@@ -24,7 +24,8 @@ export default function Home() {
             erwachsen werden bekommt.
           </Typography>
           <Button
-            color='blyzeOrange'
+            // color='blyzeOrange'
+            sx={{ backgroundColor: '#FF5B00', color: '#FFFFFF' }}
             variant='contained'
             href='/contact'
             LinkComponent={NextLink}
@@ -47,7 +48,8 @@ export default function Home() {
             interaktive Autotheorie-Lernapp.
           </Typography>
           <Button
-            color='blyzeOrange'
+            // color='blyzeOrange'
+            sx={{ backgroundColor: '#FF5B00', color: '#FFFFFF' }}
             variant='contained'
             href='https://theorie.blyze.ch'
             LinkComponent={NextLink}
