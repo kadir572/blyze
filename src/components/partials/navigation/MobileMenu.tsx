@@ -30,7 +30,7 @@ export default function MobileMenu() {
     '& .MuiPaper-root': {
       borderRadius: '0px',
       width: '100%',
-      height: '100vh',
+      height: '100dvh',
       margin: '0',
       textAlign: 'center',
       transform: 'scale(0)',
