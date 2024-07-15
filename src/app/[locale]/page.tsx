@@ -53,6 +53,7 @@ export default function Home() {
             variant='contained'
             href='https://theorie.blyze.ch'
             LinkComponent={NextLink}
+            target='_blank'
           >
             Ansehen
           </Button>
