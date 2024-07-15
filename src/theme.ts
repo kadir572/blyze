@@ -49,9 +49,9 @@ const theme = createTheme({
     fontFamily: roboto.style.fontFamily,
     h4: {
       fontWeight: 500,
-      [baseTheme.breakpoints.down('md')]: {
-        fontSize: '1.5rem',
-      },
+      // [baseTheme.breakpoints.down('md')]: {
+      //   fontSize: '1.5rem',
+      // },
     },
     h5: { fontWeight: 500 },
     h6: { fontWeight: 500 },

@@ -42,7 +42,7 @@ export default function Footer() {
                 key={index}
                 sx={{ color: 'black', textDecoration: 'none' }}
               >
-                <Typography variant='h4' component='span'>
+                <Typography variant='h5' component='span'>
                   {el.label}
                 </Typography>
               </Link>

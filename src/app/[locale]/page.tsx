@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <PageLayout title='Home Page'>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        <Typography variant='h4' component='h2' fontWeight='600'>
+        <Typography variant='h5' component='h2' fontWeight='600'>
           Was ist Blyze?
         </Typography>
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -35,7 +35,7 @@ export default function Home() {
         </Box>
       </Box>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        <Typography variant='h4' component='h2' fontWeight='600'>
+        <Typography variant='h5' component='h2' fontWeight='600'>
           Unsere Projekte
         </Typography>
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
