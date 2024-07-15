@@ -25,7 +25,12 @@ export default function Home() {
           </Typography>
           <Button
             // color='blyzeOrange'
-            sx={{ backgroundColor: '#FF5B00', color: '#FFFFFF' }}
+            sx={{
+              backgroundColor: '#FF5B00',
+              color: '#FFFFFF',
+              ':hover': { backgroundColor: '#FF5B00' },
+              ':active': { backgroundColor: '#FF5B00' },
+            }}
             variant='contained'
             href='/contact'
             LinkComponent={NextLink}
@@ -49,7 +54,12 @@ export default function Home() {
           </Typography>
           <Button
             // color='blyzeOrange'
-            sx={{ backgroundColor: '#FF5B00', color: '#FFFFFF' }}
+            sx={{
+              backgroundColor: '#FF5B00',
+              color: '#FFFFFF',
+              ':hover': { backgroundColor: '#FF5B00' },
+              ':active': { backgroundColor: '#FF5B00' },
+            }}
             variant='contained'
             href='https://theorie.blyze.ch'
             LinkComponent={NextLink}
