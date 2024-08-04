@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blyze.ch</loc>
+    <lastmod>2024-08-04T09:59:03.436Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blyze.ch/de" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://blyze.ch/en" />
+  </url>
+  <url>
+    <loc>https://blyze.ch/team</loc>
+    <lastmod>2024-08-04T09:59:03.436Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blyze.ch/de/team" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://blyze.ch/en/team" />
+  </url>
+  <url>
+    <loc>https://blyze.ch/contact</loc>
+    <lastmod>2024-08-04T09:59:03.436Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blyze.ch/de/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://blyze.ch/en/contact" />
+  </url>
+  <url>
+    <loc>https://blyze.ch/imprint</loc>
+    <lastmod>2024-08-04T09:59:03.436Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blyze.ch/de/imprint" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://blyze.ch/en/imprint" />
+  </url>
+  <url>
+    <loc>https://blyze.ch/privacy-policy</loc>
+    <lastmod>2024-08-04T09:59:03.436Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blyze.ch/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://blyze.ch/en/privacy-policy" />
+  </url>
+</urlset>
