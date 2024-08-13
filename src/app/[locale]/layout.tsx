@@ -10,8 +10,8 @@ import Box from '@mui/material/Box'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '3D-Theorie',
-  description: '3D-Theorie',
+  title: 'Blyze Zuerich',
+  description: 'Blyze Zuerich',
 }
 
 type Props = {
