@@ -30,7 +30,7 @@ export default function DesktopLinks() {
               right: 0,
               bottom: -8,
               mx: 'auto',
-              color: 'theorieBlue.main',
+              color: 'black',
               display: pathnameWithoutLocale === el.href ? 'block' : 'none',
             }}
           />

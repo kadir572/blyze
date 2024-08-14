@@ -7,12 +7,27 @@ import NextLink from 'next/link'
 
 export default function Home() {
   return (
-    <PageLayout title='Home Page'>
-      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+    <PageLayout title=''>
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 4,
+        }}
+      >
         <Typography variant='h5' component='h2' fontWeight='600'>
           Was ist Blyze?
         </Typography>
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 2,
+            maxWidth: '36rem',
+            width: '100%',
+          }}
+        >
           <Typography>
             Das junge Entwicklerteam, das Gamification-Lösungen für Gen Z macht.
           </Typography>
@@ -39,7 +54,16 @@ export default function Home() {
           </Button>
         </Box>
       </Box>
-      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 4,
+          maxWidth: '36rem',
+          width: '100%',
+          marginInline: 'auto',
+        }}
+      >
         <Typography variant='h5' component='h2' fontWeight='600'>
           Unsere Projekte
         </Typography>

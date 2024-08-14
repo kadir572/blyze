@@ -24,6 +24,7 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
     <html lang={locale}>
       <body className={inter.className}>
         <Container
+          id='top'
           maxWidth={false}
           disableGutters
           sx={{

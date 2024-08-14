@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography'
 import KadirImage from '@/assets/images/kadir.jpg'
 import LeroyImage from '@/assets/images/leroy.jpg'
 import DarioImage from '@/assets/images/dario.jpg'
+import LucaImage from '@/assets/images/luca.jpeg'
+import SalvaImage from '@/assets/images/salva.jpeg'
 import Image, { StaticImageData } from 'next/image'
 
 const data: {
@@ -32,13 +34,13 @@ const data: {
     role: 'Game Artist',
   },
   {
-    image: { src: DarioImage, alt: 'Dario Profile Picture' },
+    image: { src: LucaImage, alt: 'Dario Profile Picture' },
     name: 'Luca',
     position: 'Marketing',
     role: 'UX/UI Designer',
   },
   {
-    image: { src: DarioImage, alt: 'Dario Profile Picture' },
+    image: { src: SalvaImage, alt: 'Dario Profile Picture' },
     name: 'Salvatore',
     position: 'Content Creation',
     role: 'Marketing',
@@ -48,14 +50,15 @@ const data: {
 export default function TeamPage() {
   return (
     <PageLayout title='Unser Team'>
-      <Grid container rowGap={8}>
+      <Grid container rowGap={8} columnGap={8}>
         {data.map((el, index) => (
-          <Grid container key={index}>
+          <Grid container md={2} key={index} rowGap={4}>
             <Grid
               item
               xs={6}
+              md={12}
               sx={{
-                order: index % 2 === 0 ? 1 : 2,
+                order: { xs: index % 2 === 0 ? 1 : 2, md: 0 },
                 display: 'flex',
               }}
             >
@@ -70,7 +73,7 @@ export default function TeamPage() {
               item
               xs={6}
               sx={{
-                order: index % 2 === 0 ? 2 : 1,
+                order: { xs: index % 2 === 0 ? 2 : 1, md: 1 },
                 display: 'flex',
                 px: 2,
               }}
